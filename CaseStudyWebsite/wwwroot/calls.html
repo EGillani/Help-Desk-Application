@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Calls</title>
+    <meta charset="utf-8" />
+    <link href="/lib/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link rel="icon" href="data:; base64,iVBORw0KGgo=">
+    <meta name="viewport" content="width=device-width, initial-scale =1" />
+</head>
+<!-- stores the content of the page-->
+<body>
+    <!-- handles the navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="#">Case #2</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white-50" href="/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white-50" href="/employee.html">Employees</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/calls.html">Calls</a>
+                </li>
+            </ul>
+            <div class="form-group mt-2 mr-2">
+                <input type="text" class="form-control" id="srch" placeholder="Search By Name" />
+            </div>
+        </div>
+    </nav>
+    <!-- div for the title of page and picture-->>
+    <div>
+        <div class="mx-auto" style="height: 100px;">
+
+        </div>
+        <div class="page-header text-center">
+            <h1>
+                Current HelpDesk Calls
+            </h1>
+        </div>
+        <img src="../img/PinClipart.com_help-desk-clipart_4078625.png" class="rounded mx-auto d-block" height="300" alt="helpDesks"/>
+    </div>
+    <!--populates the employee list in this div-->
+    <div class="justify-content-center align-items-center row m-1">
+        <div class="list-group col-10" id="callList">
+        </div>
+    </div>
+    <!-- footer information-->
+    <footer class="page-footer Navbar-light bg-dark border-top">
+        <div class="footer-copyright text-white text-right py-3" style="margin-right: 40px">
+            @2020 - INFO3070 Gillani
+        </div>
+    </footer>
+        <!-- Code to set up the modal information-->
+        <form id="CallModalForm" name="CallModalForm" method="post" action="">
+            <div class="modal fade text-center" data-backdrop="static" id="theModal">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header navbar-light bg-dark  d-block">
+                            <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="modal-title text-white  text-center">Update Calls</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="card-header text-center bg-dark text-white border">
+                                Call Information
+                            </div>
+                            <div class="card-body bg-light border">
+                                <div class="row mb-2">
+                                    <div class="col-4">Problem:</div>
+                                    <div class="col-8"><select id="ddlProblems" name="ddlProblems" class="form-control"></select></div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-4">Employee:</div>
+                                    <div class="col-8"><select id="ddlEmployees" name="ddlEmployees" class="form-control"></select></div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-4">Technician:</div>
+                                    <div class="col-8"><select id="ddlTechs" name="ddlTechs" class="form-control"></select></div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-4" id="labelDateOpened">Date Opened:</div>
+                                    <div class="col-8 text-left" id="divDateOpened"></div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-4" id="labelDateClosed">Date Closed:</div>
+                                    <div class="col-8 text-left" id="divDateClosed"></div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-4" id="labelCloseCall">Close Call:</div>
+                                    <div class="col-1"><input type="checkbox" id="checkBoxClose" /></div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-4">Notes:</div>
+                                    <div class="col-8"><textarea id="textAreaNotes" name="textAreaNotes" class="form-control"></textarea></div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer text-center">
+                                <div id="modalstatus" class="text-center mt-3 mb-2"></div>
+                                <br><br />
+                                <input type="button" class="btn btn-secondary mt-2 bg-dark text-white" value="Update" id="actionbutton" />
+                                <input type="button" class="btn btn-secondary mt-2 bg-dark text-white" data-toggle="confirmation" data-placement="right" value="delete" id="deletebutton" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- the js files for css styling and js code to get information from the database to generate our employee list-->
+        <script src="lib/js/jquery.min.js"></script>
+        <script src="lib/js/jquery.validate.min.js"></script>
+        <script src="lib/js/popper.min.js"></script>
+        <script src="lib/js/bootstrap.min.js"></script>
+        <script src="lib/js/bootstrap-confirmation.min.js"></script>
+        <script src="js/calls.js"></script>
+</body>
+</html>

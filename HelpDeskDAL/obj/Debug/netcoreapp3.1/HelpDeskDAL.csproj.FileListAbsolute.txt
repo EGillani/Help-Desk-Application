@@ -1,0 +1,12 @@
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\bin\Debug\netcoreapp3.1\HelpDeskDAL.deps.json
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\bin\Debug\netcoreapp3.1\HelpDeskDAL.runtimeconfig.json
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\bin\Debug\netcoreapp3.1\HelpDeskDAL.runtimeconfig.dev.json
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\bin\Debug\netcoreapp3.1\HelpDeskDAL.dll
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\bin\Debug\netcoreapp3.1\HelpDeskDAL.pdb
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\obj\Debug\netcoreapp3.1\HelpDeskDAL.csprojAssemblyReference.cache
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\obj\Debug\netcoreapp3.1\HelpDeskDAL.AssemblyInfoInputs.cache
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\obj\Debug\netcoreapp3.1\HelpDeskDAL.AssemblyInfo.cs
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\obj\Debug\netcoreapp3.1\HelpDeskDAL.csproj.CoreCompileInputs.cache
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\obj\Debug\netcoreapp3.1\HelpDeskDAL.dll
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\obj\Debug\netcoreapp3.1\HelpDeskDAL.pdb
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpDeskDAL\obj\Debug\netcoreapp3.1\HelpDeskDAL.genruntimeconfig.cache

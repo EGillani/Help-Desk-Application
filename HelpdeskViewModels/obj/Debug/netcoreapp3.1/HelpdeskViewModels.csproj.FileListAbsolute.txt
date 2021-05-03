@@ -1,0 +1,12 @@
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\bin\Debug\netcoreapp3.1\HelpdeskViewModels.deps.json
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\bin\Debug\netcoreapp3.1\HelpdeskViewModels.dll
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\bin\Debug\netcoreapp3.1\HelpdeskViewModels.pdb
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\bin\Debug\netcoreapp3.1\HelpDeskDAL.dll
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\bin\Debug\netcoreapp3.1\HelpDeskDAL.pdb
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\obj\Debug\netcoreapp3.1\HelpdeskViewModels.csprojAssemblyReference.cache
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\obj\Debug\netcoreapp3.1\HelpdeskViewModels.AssemblyInfoInputs.cache
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\obj\Debug\netcoreapp3.1\HelpdeskViewModels.AssemblyInfo.cs
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\obj\Debug\netcoreapp3.1\HelpdeskViewModels.csproj.CoreCompileInputs.cache
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\obj\Debug\netcoreapp3.1\HelpdeskViewModels.csproj.CopyComplete
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\obj\Debug\netcoreapp3.1\HelpdeskViewModels.dll
+C:\Fall2020\INFO3070(Sean)\CaseStudy\HelpdeskViewModels\obj\Debug\netcoreapp3.1\HelpdeskViewModels.pdb
